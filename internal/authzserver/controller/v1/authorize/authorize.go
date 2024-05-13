@@ -11,9 +11,9 @@ import (
 	"github.com/marmotedu/errors"
 	"github.com/ory/ladon"
 
-	"github.com/leimeng-go/iam/internal/authzserver/authorization"
-	"github.com/leimeng-go/iam/internal/authzserver/authorization/authorizer"
-	"github.com/leimeng-go/iam/internal/pkg/code"
+	"iam/internal/authzserver/authorization"
+	"iam/internal/authzserver/authorization/authorizer"
+	"iam/internal/pkg/code"
 )
 
 // AuthzController create a authorize handler used to handle authorize request.

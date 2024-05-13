@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v3"
 
-	"github.com/leimeng-go/iam/internal/iamctl/cmd"
-	"github.com/leimeng-go/iam/pkg/util/genutil"
+	"iam/internal/iamctl/cmd"
+	"iam/pkg/util/genutil"
 )
 
 type cmdOption struct {

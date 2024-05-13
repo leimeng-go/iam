@@ -17,10 +17,10 @@ import (
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 	"github.com/spf13/viper"
 
-	"github.com/leimeng-go/iam/internal/apiserver/store"
-	"github.com/leimeng-go/iam/internal/pkg/middleware"
-	"github.com/leimeng-go/iam/internal/pkg/middleware/auth"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/apiserver/store"
+	"iam/internal/pkg/middleware"
+	"iam/internal/pkg/middleware/auth"
+	"iam/pkg/log"
 )
 
 const (

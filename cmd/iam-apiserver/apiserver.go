@@ -14,7 +14,7 @@ import (
 
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/leimeng-go/iam/internal/apiserver"
+	"iam/internal/apiserver"
 )
 
 func main() {

@@ -14,22 +14,22 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/color"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/completion"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/info"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/jwt"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/new"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/options"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/policy"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/secret"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/set"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/user"
-	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/validate"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd/version"
-	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
-	genericapiserver "github.com/leimeng-go/iam/internal/pkg/server"
-	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
+	"iam/internal/iamctl/cmd/color"
+	"iam/internal/iamctl/cmd/completion"
+	"iam/internal/iamctl/cmd/info"
+	"iam/internal/iamctl/cmd/jwt"
+	"iam/internal/iamctl/cmd/new"
+	"iam/internal/iamctl/cmd/options"
+	"iam/internal/iamctl/cmd/policy"
+	"iam/internal/iamctl/cmd/secret"
+	"iam/internal/iamctl/cmd/set"
+	"iam/internal/iamctl/cmd/user"
+	cmdutil "iam/internal/iamctl/cmd/util"
+	"iam/internal/iamctl/cmd/validate"
+	"iam/internal/iamctl/cmd/version"
+	"iam/internal/iamctl/util/templates"
+	genericapiserver "iam/internal/pkg/server"
+	"iam/pkg/cli/genericclioptions"
 )
 
 // NewDefaultIAMCtlCommand creates the `iamctl` command with default arguments.
@@ -47,7 +47,7 @@ func NewIAMCtlCommand(in io.Reader, out, err io.Writer) *cobra.Command {
 		iamctl controls the iam platform, is the client side tool for iam platform.
 
 		Find more information at:
-			https://github.com/leimeng-go/iam/blob/master/docs/guide/en-US/cmd/iamctl/iamctl.md`),
+			https://iam/blob/master/docs/guide/en-US/cmd/iamctl/iamctl.md`),
 		Run: runHelp,
 		// Hook before and after Run initialize and write profiles to disk,
 		// respectively.

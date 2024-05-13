@@ -1,4 +1,4 @@
-module github.com/leimeng-go/iam
+module iam
 
 go 1.21.4
 

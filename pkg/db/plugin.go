@@ -9,7 +9,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/pkg/log"
 )
 
 const (

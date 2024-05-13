@@ -5,8 +5,8 @@
 package policy
 
 import (
-	srvv1 "github.com/leimeng-go/iam/internal/apiserver/service/v1"
-	"github.com/leimeng-go/iam/internal/apiserver/store"
+	srvv1 "iam/internal/apiserver/service/v1"
+	"iam/internal/apiserver/store"
 )
 
 // PolicyController create a policy handler used to handle request for policy resource.

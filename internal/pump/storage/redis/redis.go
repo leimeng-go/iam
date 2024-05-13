@@ -14,8 +14,8 @@ import (
 	"github.com/marmotedu/errors"
 	"github.com/mitchellh/mapstructure"
 
-	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
-	"github.com/leimeng-go/iam/pkg/log"
+	genericoptions "iam/internal/pkg/options"
+	"iam/pkg/log"
 )
 
 // ------------------- REDIS CLUSTER STORAGE MANAGER -------------------------------

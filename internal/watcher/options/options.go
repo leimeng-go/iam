@@ -9,8 +9,8 @@ import (
 	cliflag "github.com/marmotedu/component-base/pkg/cli/flag"
 	"github.com/marmotedu/component-base/pkg/json"
 
-	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
-	"github.com/leimeng-go/iam/pkg/log"
+	genericoptions "iam/internal/pkg/options"
+	"iam/pkg/log"
 )
 
 // CleanOptions defines options for clean watcher.

@@ -24,8 +24,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/vinllen/mgo"
 
-	"github.com/leimeng-go/iam/internal/pump/analytics"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pump/analytics"
+	"iam/pkg/log"
 )
 
 // Define unit constant.

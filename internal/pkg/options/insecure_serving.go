@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/leimeng-go/iam/internal/pkg/server"
+	"iam/internal/pkg/server"
 )
 
 // InsecureServingOptions are for creating an unauthenticated, unauthorized, insecure port.

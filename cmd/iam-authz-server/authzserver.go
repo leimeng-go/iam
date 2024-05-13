@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/leimeng-go/iam/internal/authzserver"
+	"iam/internal/authzserver"
 )
 
 func main() {

@@ -14,7 +14,7 @@ import (
 
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/leimeng-go/iam/internal/watcher"
+	"iam/internal/watcher"
 )
 
 func main() {

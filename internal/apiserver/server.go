@@ -13,16 +13,16 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/leimeng-go/iam/internal/apiserver/config"
-	cachev1 "github.com/leimeng-go/iam/internal/apiserver/controller/v1/cache"
-	"github.com/leimeng-go/iam/internal/apiserver/store"
-	"github.com/leimeng-go/iam/internal/apiserver/store/mysql"
-	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
-	genericapiserver "github.com/leimeng-go/iam/internal/pkg/server"
-	"github.com/leimeng-go/iam/pkg/log"
-	"github.com/leimeng-go/iam/pkg/shutdown"
-	"github.com/leimeng-go/iam/pkg/shutdown/shutdownmanagers/posixsignal"
-	"github.com/leimeng-go/iam/pkg/storage"
+	"iam/internal/apiserver/config"
+	cachev1 "iam/internal/apiserver/controller/v1/cache"
+	"iam/internal/apiserver/store"
+	"iam/internal/apiserver/store/mysql"
+	genericoptions "iam/internal/pkg/options"
+	genericapiserver "iam/internal/pkg/server"
+	"iam/pkg/log"
+	"iam/pkg/shutdown"
+	"iam/pkg/shutdown/shutdownmanagers/posixsignal"
+	"iam/pkg/storage"
 )
 
 type apiServer struct {

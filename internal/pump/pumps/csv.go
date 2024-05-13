@@ -15,8 +15,8 @@ import (
 	"github.com/marmotedu/errors"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/leimeng-go/iam/internal/pump/analytics"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pump/analytics"
+	"iam/pkg/log"
 )
 
 // CSVPump defines a csv pump with csv specific options and common options.

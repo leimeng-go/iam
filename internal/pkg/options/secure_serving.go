@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/leimeng-go/iam/internal/pkg/server"
+	"iam/internal/pkg/server"
 )
 
 // SecureServingOptions contains configuration items related to HTTPS server startup.

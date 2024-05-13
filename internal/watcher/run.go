@@ -5,8 +5,8 @@
 package watcher
 
 import (
-	genericapiserver "github.com/leimeng-go/iam/internal/pkg/server"
-	"github.com/leimeng-go/iam/internal/watcher/config"
+	genericapiserver "iam/internal/pkg/server"
+	"iam/internal/watcher/config"
 )
 
 // Run runs the specified pump server. This should never exit.

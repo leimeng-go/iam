@@ -10,8 +10,8 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	srvv1 "github.com/leimeng-go/iam/internal/apiserver/service/v1"
-	"github.com/leimeng-go/iam/internal/apiserver/store"
+	srvv1 "iam/internal/apiserver/service/v1"
+	"iam/internal/apiserver/store"
 )
 
 func TestNewUserController(t *testing.T) {

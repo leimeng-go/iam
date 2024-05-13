@@ -8,7 +8,7 @@ import (
 	"context"
 	"flag"
 
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/pkg/log"
 )
 
 var (

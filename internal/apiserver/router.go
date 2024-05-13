@@ -9,16 +9,16 @@ import (
 	"github.com/marmotedu/component-base/pkg/core"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/apiserver/controller/v1/policy"
-	"github.com/leimeng-go/iam/internal/apiserver/controller/v1/secret"
-	"github.com/leimeng-go/iam/internal/apiserver/controller/v1/user"
-	"github.com/leimeng-go/iam/internal/apiserver/store/mysql"
-	"github.com/leimeng-go/iam/internal/pkg/code"
-	"github.com/leimeng-go/iam/internal/pkg/middleware"
-	"github.com/leimeng-go/iam/internal/pkg/middleware/auth"
+	"iam/internal/apiserver/controller/v1/policy"
+	"iam/internal/apiserver/controller/v1/secret"
+	"iam/internal/apiserver/controller/v1/user"
+	"iam/internal/apiserver/store/mysql"
+	"iam/internal/pkg/code"
+	"iam/internal/pkg/middleware"
+	"iam/internal/pkg/middleware/auth"
 
 	// custom gin validators.
-	_ "github.com/leimeng-go/iam/pkg/validator"
+	_ "iam/pkg/validator"
 )
 
 func initRouter(g *gin.Engine) {

@@ -2,4 +2,4 @@
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
-package validator // import "github.com/leimeng-go/iam/pkg/validator"
+package validator // import "iam/pkg/validator"

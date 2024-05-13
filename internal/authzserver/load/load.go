@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/leimeng-go/iam/pkg/log"
-	"github.com/leimeng-go/iam/pkg/storage"
+	"iam/pkg/log"
+	"iam/pkg/storage"
 )
 
 // Loader defines function to reload storage.

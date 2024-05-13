@@ -9,17 +9,17 @@ import (
 
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/authzserver/analytics"
-	"github.com/leimeng-go/iam/internal/authzserver/config"
-	"github.com/leimeng-go/iam/internal/authzserver/load"
-	"github.com/leimeng-go/iam/internal/authzserver/load/cache"
-	"github.com/leimeng-go/iam/internal/authzserver/store/apiserver"
-	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
-	genericapiserver "github.com/leimeng-go/iam/internal/pkg/server"
-	"github.com/leimeng-go/iam/pkg/log"
-	"github.com/leimeng-go/iam/pkg/shutdown"
-	"github.com/leimeng-go/iam/pkg/shutdown/shutdownmanagers/posixsignal"
-	"github.com/leimeng-go/iam/pkg/storage"
+	"iam/internal/authzserver/analytics"
+	"iam/internal/authzserver/config"
+	"iam/internal/authzserver/load"
+	"iam/internal/authzserver/load/cache"
+	"iam/internal/authzserver/store/apiserver"
+	genericoptions "iam/internal/pkg/options"
+	genericapiserver "iam/internal/pkg/server"
+	"iam/pkg/log"
+	"iam/pkg/shutdown"
+	"iam/pkg/shutdown/shutdownmanagers/posixsignal"
+	"iam/pkg/storage"
 )
 
 // RedisKeyPrefix defines the prefix key in redis for analytics data.

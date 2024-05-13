@@ -16,7 +16,7 @@ import (
 	"github.com/marmotedu/marmotedu-sdk-go/tools/clientcmd"
 	"github.com/spf13/pflag"
 
-	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
+	"iam/pkg/cli/genericclioptions"
 )
 
 const (

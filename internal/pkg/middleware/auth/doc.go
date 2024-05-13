@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package auth defines authentication strategy like Basic, Bearer.
-package auth // import "github.com/leimeng-go/iam/internal/pkg/middleware/auth"
+package auth // import "iam/internal/pkg/middleware/auth"

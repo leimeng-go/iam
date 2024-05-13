@@ -8,7 +8,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/pkg/log"
 )
 
 // ServeHealthCheck runs a http server used to provide a api to check pump health status.

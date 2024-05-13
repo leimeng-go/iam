@@ -7,7 +7,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/leimeng-go/iam/internal/pkg/server"
+	"iam/internal/pkg/server"
 )
 
 // FeatureOptions contains configuration items related to API server features.

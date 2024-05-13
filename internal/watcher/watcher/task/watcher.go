@@ -11,10 +11,10 @@ import (
 	"github.com/go-redsync/redsync/v4"
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 
-	"github.com/leimeng-go/iam/internal/apiserver/store/mysql"
-	"github.com/leimeng-go/iam/internal/watcher/options"
-	"github.com/leimeng-go/iam/internal/watcher/watcher"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/apiserver/store/mysql"
+	"iam/internal/watcher/options"
+	"iam/internal/watcher/watcher"
+	"iam/pkg/log"
 )
 
 type taskWatcher struct {

@@ -13,9 +13,9 @@ import (
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/apiserver/store"
-	"github.com/leimeng-go/iam/internal/pkg/code"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/apiserver/store"
+	"iam/internal/pkg/code"
+	"iam/pkg/log"
 )
 
 // UserSrv defines functions used to handle user request.

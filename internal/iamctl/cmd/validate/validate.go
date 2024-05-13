@@ -15,10 +15,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/leimeng-go/iam/internal/iamctl"
-	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
-	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
-	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
+	"iam/internal/iamctl"
+	cmdutil "iam/internal/iamctl/cmd/util"
+	"iam/internal/iamctl/util/templates"
+	"iam/pkg/cli/genericclioptions"
 )
 
 // ValidateOptions is an options struct to support 'validate' sub command.

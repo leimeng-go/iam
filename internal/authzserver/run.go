@@ -5,7 +5,7 @@
 package authzserver
 
 import (
-	"github.com/leimeng-go/iam/internal/authzserver/config"
+	"iam/internal/authzserver/config"
 )
 
 // Run runs the specified AuthzServer. This should never exit.

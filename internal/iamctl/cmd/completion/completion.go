@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
-	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	cmdutil "iam/internal/iamctl/cmd/util"
+	"iam/internal/iamctl/util/templates"
 )
 
 const defaultBoilerPlate = `
@@ -29,7 +29,7 @@ var (
 		the .bash_profile.
 
 		Detailed instructions on how to do this are available here:
-		http://github.com/leimeng-go/iam/docs/installation/iamctl.md#enabling-shell-autocompletion
+		http://iam/docs/installation/iamctl.md#enabling-shell-autocompletion
 
 		Note for zsh users: [1] zsh completions are only supported in versions of zsh >= 5.2`)
 

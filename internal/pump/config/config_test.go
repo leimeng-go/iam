@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/leimeng-go/iam/internal/pump/options"
+	"iam/internal/pump/options"
 )
 
 func TestCreateConfigFromOptions(t *testing.T) {

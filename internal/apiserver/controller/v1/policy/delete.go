@@ -9,8 +9,8 @@ import (
 	"github.com/marmotedu/component-base/pkg/core"
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 
-	"github.com/leimeng-go/iam/internal/pkg/middleware"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pkg/middleware"
+	"iam/pkg/log"
 )
 
 // Delete deletes the policy by the policy identifier.

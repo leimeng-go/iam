@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leimeng-go/iam/pkg/shutdown"
+	"iam/pkg/shutdown"
 )
 
 type startShutdownFunc func(sm shutdown.ShutdownManager)

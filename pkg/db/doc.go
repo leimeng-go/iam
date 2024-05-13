@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package db provide useful functions to create mysql instance.
-package db // import "github.com/leimeng-go/iam/pkg/db"
+package db // import "iam/pkg/db"

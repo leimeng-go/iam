@@ -14,8 +14,8 @@ import (
 	"github.com/golang/mock/gomock"
 	v1 "github.com/marmotedu/api/apiserver/v1"
 
-	srvv1 "github.com/leimeng-go/iam/internal/apiserver/service/v1"
-	_ "github.com/leimeng-go/iam/pkg/validator"
+	srvv1 "iam/internal/apiserver/service/v1"
+	_ "iam/pkg/validator"
 )
 
 func TestUserController_ChangePassword(t *testing.T) {

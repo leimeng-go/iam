@@ -16,8 +16,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	elastic "github.com/olivere/elastic/v7"
 
-	"github.com/leimeng-go/iam/internal/pump/analytics"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pump/analytics"
+	"iam/pkg/log"
 )
 
 // ElasticsearchPump defines an elasticsearch pump with elasticsearch specific options and common options.

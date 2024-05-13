@@ -13,8 +13,8 @@ import (
 	redis "github.com/go-redis/redis/v7"
 	"github.com/marmotedu/component-base/pkg/json"
 
-	"github.com/leimeng-go/iam/pkg/log"
-	"github.com/leimeng-go/iam/pkg/storage"
+	"iam/pkg/log"
+	"iam/pkg/storage"
 )
 
 // NotificationCommand defines a new notification type.

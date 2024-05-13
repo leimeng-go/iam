@@ -4,7 +4,7 @@
 
 package config
 
-import "github.com/leimeng-go/iam/internal/authzserver/options"
+import "iam/internal/authzserver/options"
 
 // Config is the running configuration structure of the IAM pump service.
 type Config struct {

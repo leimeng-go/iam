@@ -6,10 +6,10 @@
 package apiserver
 
 import (
-	"github.com/leimeng-go/iam/internal/apiserver/config"
-	"github.com/leimeng-go/iam/internal/apiserver/options"
-	"github.com/leimeng-go/iam/pkg/app"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/apiserver/config"
+	"iam/internal/apiserver/options"
+	"iam/pkg/app"
+	"iam/pkg/log"
 )
 
 const commandDesc = `The IAM API server validates and configures data
@@ -17,7 +17,7 @@ for the api objects which include users, policies, secrets, and
 others. The API Server services REST operations to do the api objects management.
 
 Find more iam-apiserver information at:
-    https://github.com/leimeng-go/iam/blob/master/docs/guide/en-US/cmd/iam-apiserver.md`
+    https://iam/blob/master/docs/guide/en-US/cmd/iam-apiserver.md`
 
 // NewApp creates an App object with default parameters.
 func NewApp(basename string) *app.App {

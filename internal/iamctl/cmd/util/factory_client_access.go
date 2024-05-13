@@ -11,7 +11,7 @@ import (
 	restclient "github.com/marmotedu/marmotedu-sdk-go/rest"
 	"github.com/marmotedu/marmotedu-sdk-go/tools/clientcmd"
 
-	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
+	"iam/pkg/cli/genericclioptions"
 )
 
 type factoryImpl struct {

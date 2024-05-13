@@ -13,8 +13,8 @@ import (
 	"github.com/marmotedu/component-base/pkg/json"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/leimeng-go/iam/internal/pump/analytics"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pump/analytics"
+	"iam/pkg/log"
 )
 
 // InfluxPump defines an influx pump with influx specific options and common options.

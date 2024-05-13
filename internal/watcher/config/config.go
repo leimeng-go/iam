@@ -4,7 +4,7 @@
 
 package config
 
-import "github.com/leimeng-go/iam/internal/watcher/options"
+import "iam/internal/watcher/options"
 
 // Config is the running configuration structure of the IAM pump service.
 type Config struct {

@@ -6,17 +6,17 @@
 package authzserver
 
 import (
-	"github.com/leimeng-go/iam/internal/authzserver/config"
-	"github.com/leimeng-go/iam/internal/authzserver/options"
-	"github.com/leimeng-go/iam/pkg/app"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/authzserver/config"
+	"iam/internal/authzserver/options"
+	"iam/pkg/app"
+	"iam/pkg/log"
 )
 
 const commandDesc = `Authorization server to run ladon policies which can protecting your resources.
 It is written inspired by AWS IAM policiis.
 
 Find more iam-authz-server information at:
-    https://github.com/leimeng-go/iam/blob/master/docs/guide/en-US/cmd/iam-authz-server.md,
+    https://iam/blob/master/docs/guide/en-US/cmd/iam-authz-server.md,
 
 Find more ladon information at:
     https://github.com/ory/ladon`

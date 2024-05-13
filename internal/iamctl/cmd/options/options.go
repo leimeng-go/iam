@@ -10,7 +10,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	"iam/internal/iamctl/util/templates"
 )
 
 var optionsExample = templates.Examples(`

@@ -14,7 +14,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/leimeng-go/iam/pkg/shutdown"
+	"iam/pkg/shutdown"
 )
 
 // Name defines shutdown manager name.

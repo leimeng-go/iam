@@ -12,8 +12,8 @@ import (
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/apiserver/store"
-	"github.com/leimeng-go/iam/internal/pkg/code"
+	"iam/internal/apiserver/store"
+	"iam/internal/pkg/code"
 )
 
 // Validation make sure users have the right resource permission and operation.

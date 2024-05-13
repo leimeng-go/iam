@@ -14,8 +14,8 @@ import (
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/pkg/code"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pkg/code"
+	"iam/pkg/log"
 )
 
 // Create add new user to the storage.

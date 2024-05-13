@@ -14,7 +14,7 @@ import (
 
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/leimeng-go/iam/internal/pump"
+	"iam/internal/pump"
 )
 
 func main() {

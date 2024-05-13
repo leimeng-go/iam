@@ -8,7 +8,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/leimeng-go/iam/internal/pump/analytics"
+	"iam/internal/pump/analytics"
 )
 
 // Pump defines the interface for all analytics back-end.

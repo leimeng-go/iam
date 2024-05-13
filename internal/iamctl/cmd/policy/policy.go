@@ -8,9 +8,9 @@ package policy
 import (
 	"github.com/spf13/cobra"
 
-	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
-	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
-	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
+	cmdutil "iam/internal/iamctl/cmd/util"
+	"iam/internal/iamctl/util/templates"
+	"iam/pkg/cli/genericclioptions"
 )
 
 var policyLong = templates.LongDesc(`

@@ -7,7 +7,7 @@ package pumps
 import (
 	"context"
 
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/pkg/log"
 )
 
 // DummyPump  defines a dummy pump with dummy specific options and common options.

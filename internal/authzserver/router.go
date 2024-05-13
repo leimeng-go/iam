@@ -9,10 +9,10 @@ import (
 	"github.com/marmotedu/component-base/pkg/core"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/authzserver/controller/v1/authorize"
-	"github.com/leimeng-go/iam/internal/authzserver/load/cache"
-	"github.com/leimeng-go/iam/internal/pkg/code"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/authzserver/controller/v1/authorize"
+	"iam/internal/authzserver/load/cache"
+	"iam/internal/pkg/code"
+	"iam/pkg/log"
 )
 
 func initRouter(g *gin.Engine) {

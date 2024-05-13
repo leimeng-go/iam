@@ -14,8 +14,8 @@ import (
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/leimeng-go/iam/internal/apiserver/store"
-	"github.com/leimeng-go/iam/internal/apiserver/store/fake"
+	"iam/internal/apiserver/store"
+	"iam/internal/apiserver/store/fake"
 )
 
 type Suite struct {

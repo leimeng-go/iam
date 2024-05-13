@@ -15,13 +15,13 @@ import (
 	"github.com/go-redsync/redsync/v4/redis/goredis/v8"
 	"github.com/vmihailenco/msgpack/v5"
 
-	"github.com/leimeng-go/iam/internal/pump/analytics"
-	"github.com/leimeng-go/iam/internal/pump/config"
-	"github.com/leimeng-go/iam/internal/pump/options"
-	"github.com/leimeng-go/iam/internal/pump/pumps"
-	"github.com/leimeng-go/iam/internal/pump/storage"
-	"github.com/leimeng-go/iam/internal/pump/storage/redis"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pump/analytics"
+	"iam/internal/pump/config"
+	"iam/internal/pump/options"
+	"iam/internal/pump/pumps"
+	"iam/internal/pump/storage"
+	"iam/internal/pump/storage/redis"
+	"iam/pkg/log"
 )
 
 var pmps []pumps.Pump

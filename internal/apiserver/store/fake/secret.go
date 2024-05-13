@@ -14,9 +14,9 @@ import (
 	"github.com/marmotedu/component-base/pkg/util/stringutil"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/pkg/code"
-	"github.com/leimeng-go/iam/internal/pkg/util/gormutil"
-	reflectutil "github.com/leimeng-go/iam/internal/pkg/util/reflect"
+	"iam/internal/pkg/code"
+	"iam/internal/pkg/util/gormutil"
+	reflectutil "iam/internal/pkg/util/reflect"
 )
 
 type secrets struct {

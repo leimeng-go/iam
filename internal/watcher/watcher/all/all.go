@@ -6,6 +6,6 @@ package all
 
 //nolint: golint
 import (
-	_ "github.com/leimeng-go/iam/internal/watcher/watcher/clean"
-	_ "github.com/leimeng-go/iam/internal/watcher/watcher/task"
+	_ "iam/internal/watcher/watcher/clean"
+	_ "iam/internal/watcher/watcher/task"
 )

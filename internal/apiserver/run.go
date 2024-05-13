@@ -4,7 +4,7 @@
 
 package apiserver
 
-import "github.com/leimeng-go/iam/internal/apiserver/config"
+import "iam/internal/apiserver/config"
 
 // Run runs the specified APIServer. This should never exit.
 func Run(cfg *config.Config) error {

@@ -18,8 +18,8 @@ import (
 	"github.com/segmentio/kafka-go/sasl/scram"
 	"github.com/segmentio/kafka-go/snappy"
 
-	"github.com/leimeng-go/iam/internal/pump/analytics"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pump/analytics"
+	"iam/pkg/log"
 )
 
 // KafkaPump defines a kafka pump with kafka specific options and common options.

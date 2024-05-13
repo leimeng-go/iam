@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/pkg/log"
 )
 
 func main() {

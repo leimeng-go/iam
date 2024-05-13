@@ -10,12 +10,12 @@ import (
 
 	"github.com/spf13/cobra/doc"
 
-	"github.com/leimeng-go/iam/internal/apiserver"
-	"github.com/leimeng-go/iam/internal/authzserver"
-	"github.com/leimeng-go/iam/internal/iamctl/cmd"
-	"github.com/leimeng-go/iam/internal/pump"
-	"github.com/leimeng-go/iam/internal/watcher"
-	"github.com/leimeng-go/iam/pkg/util/genutil"
+	"iam/internal/apiserver"
+	"iam/internal/authzserver"
+	"iam/internal/iamctl/cmd"
+	"iam/internal/pump"
+	"iam/internal/watcher"
+	"iam/pkg/util/genutil"
 )
 
 func main() {

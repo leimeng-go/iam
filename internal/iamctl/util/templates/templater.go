@@ -14,7 +14,7 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/leimeng-go/iam/internal/iamctl/util/term"
+	"iam/internal/iamctl/util/term"
 )
 
 type FlagExposer interface {

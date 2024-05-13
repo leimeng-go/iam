@@ -12,8 +12,8 @@ import (
 
 	"github.com/vmihailenco/msgpack/v5"
 
-	"github.com/leimeng-go/iam/pkg/log"
-	"github.com/leimeng-go/iam/pkg/storage"
+	"iam/pkg/log"
+	"iam/pkg/storage"
 )
 
 const analyticsKeyName = "iam-system-analytics"

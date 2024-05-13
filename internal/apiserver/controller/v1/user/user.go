@@ -5,8 +5,8 @@
 package user
 
 import (
-	srvv1 "github.com/leimeng-go/iam/internal/apiserver/service/v1"
-	"github.com/leimeng-go/iam/internal/apiserver/store"
+	srvv1 "iam/internal/apiserver/service/v1"
+	"iam/internal/apiserver/store"
 )
 
 // UserController create a user handler used to handle request for user resource.

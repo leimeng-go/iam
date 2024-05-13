@@ -13,9 +13,9 @@ import (
 	"github.com/marmotedu/component-base/pkg/util/idutil"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/pkg/code"
-	"github.com/leimeng-go/iam/internal/pkg/middleware"
-	"github.com/leimeng-go/iam/pkg/log"
+	"iam/internal/pkg/code"
+	"iam/internal/pkg/middleware"
+	"iam/pkg/log"
 )
 
 const maxSecretCount = 10

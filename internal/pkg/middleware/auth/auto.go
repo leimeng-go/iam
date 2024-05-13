@@ -11,8 +11,8 @@ import (
 	"github.com/marmotedu/component-base/pkg/core"
 	"github.com/marmotedu/errors"
 
-	"github.com/leimeng-go/iam/internal/pkg/code"
-	"github.com/leimeng-go/iam/internal/pkg/middleware"
+	"iam/internal/pkg/code"
+	"iam/internal/pkg/middleware"
 )
 
 const authHeaderCount = 2

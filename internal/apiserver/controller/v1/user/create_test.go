@@ -13,7 +13,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
 
-	srvv1 "github.com/leimeng-go/iam/internal/apiserver/service/v1"
+	srvv1 "iam/internal/apiserver/service/v1"
 )
 
 func TestUserController_Create(t *testing.T) {

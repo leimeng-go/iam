@@ -4,7 +4,7 @@
 
 package store
 
-//go:generate mockgen -self_package=github.com/leimeng-go/iam/internal/apiserver/store -destination mock_store.go -package store github.com/leimeng-go/iam/internal/apiserver/store Factory,UserStore,SecretStore,PolicyStore
+//go:generate mockgen -self_package=iam/internal/apiserver/store -destination mock_store.go -package store iam/internal/apiserver/store Factory,UserStore,SecretStore,PolicyStore
 
 var client Factory
 
