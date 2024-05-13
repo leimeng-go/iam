@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package new used to generate demo command code.
-//nolint: predeclared
+// nolint: predeclared
 package new
 
 import (
@@ -18,9 +18,9 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	cmdutil "github.com/marmotedu/iam/internal/iamctl/cmd/util"
-	"github.com/marmotedu/iam/internal/iamctl/util/templates"
-	"github.com/marmotedu/iam/pkg/cli/genericclioptions"
+	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
+	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
 )
 
 const (
@@ -62,9 +62,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cmdutil "github.com/marmotedu/iam/internal/iamctl/cmd/util"
-	"github.com/marmotedu/iam/internal/iamctl/util/templates"
-	"github.com/marmotedu/iam/pkg/cli/genericclioptions"
+	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
+	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
 )
 
 const (
@@ -203,9 +203,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cmdutil "github.com/marmotedu/iam/internal/iamctl/cmd/util"
-	"github.com/marmotedu/iam/internal/iamctl/util/templates"
-	"github.com/marmotedu/iam/pkg/cli/genericclioptions"
+	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
+	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
 )
 
 const maxStringLength = 17
@@ -255,9 +255,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cmdutil "github.com/marmotedu/iam/internal/iamctl/cmd/util"
-	"github.com/marmotedu/iam/internal/iamctl/util/templates"
-	"github.com/marmotedu/iam/pkg/cli/genericclioptions"
+	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
+	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
 )
 
 const (
@@ -392,9 +392,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cmdutil "github.com/marmotedu/iam/internal/iamctl/cmd/util"
-	"github.com/marmotedu/iam/internal/iamctl/util/templates"
-	"github.com/marmotedu/iam/pkg/cli/genericclioptions"
+	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
+	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
 )
 
 // SubCmd2Options is an options struct to support subcmd2 subcommands.

@@ -9,7 +9,7 @@ import (
 	"github.com/marmotedu/component-base/pkg/core"
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // DeleteCollection batch delete users by multiple usernames.

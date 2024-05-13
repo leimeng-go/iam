@@ -14,9 +14,9 @@ import (
 	"github.com/marmotedu/component-base/pkg/util/iputil"
 	"github.com/spf13/cobra"
 
-	cmdutil "github.com/marmotedu/iam/internal/iamctl/cmd/util"
-	"github.com/marmotedu/iam/internal/iamctl/util/templates"
-	"github.com/marmotedu/iam/pkg/cli/genericclioptions"
+	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
+	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
 )
 
 // Info defines the host information struct.

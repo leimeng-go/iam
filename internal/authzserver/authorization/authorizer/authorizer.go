@@ -13,8 +13,8 @@ import (
 	"github.com/marmotedu/component-base/pkg/json"
 	"github.com/ory/ladon"
 
-	"github.com/marmotedu/iam/internal/authzserver/analytics"
-	"github.com/marmotedu/iam/internal/authzserver/authorization"
+	"github.com/leimeng-go/iam/internal/authzserver/analytics"
+	"github.com/leimeng-go/iam/internal/authzserver/authorization"
 )
 
 // PolicyGetter defines function to get policy for a given user.

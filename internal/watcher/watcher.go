@@ -14,14 +14,14 @@ import (
 	"github.com/go-redsync/redsync/v4/redis/goredis/v8"
 	"github.com/robfig/cron/v3"
 
-	genericoptions "github.com/marmotedu/iam/internal/pkg/options"
-	"github.com/marmotedu/iam/internal/watcher/options"
-	"github.com/marmotedu/iam/internal/watcher/watcher"
+	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
+	"github.com/leimeng-go/iam/internal/watcher/options"
+	"github.com/leimeng-go/iam/internal/watcher/watcher"
 
 	// trigger init functions in `internal/watcher/watcher/`.
-	_ "github.com/marmotedu/iam/internal/watcher/watcher/all"
-	"github.com/marmotedu/iam/pkg/log"
-	"github.com/marmotedu/iam/pkg/log/cronlog"
+	_ "github.com/leimeng-go/iam/internal/watcher/watcher/all"
+	"github.com/leimeng-go/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/log/cronlog"
 )
 
 type watchJob struct {

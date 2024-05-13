@@ -11,8 +11,8 @@ import (
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 	"github.com/marmotedu/errors"
 
-	"github.com/marmotedu/iam/internal/pkg/code"
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/internal/pkg/code"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // Update update a user info by the user identifier.

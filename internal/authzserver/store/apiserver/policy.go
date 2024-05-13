@@ -14,7 +14,7 @@ import (
 	"github.com/marmotedu/errors"
 	"github.com/ory/ladon"
 
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 type policies struct {

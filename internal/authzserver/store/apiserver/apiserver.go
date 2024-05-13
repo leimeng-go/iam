@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/marmotedu/iam/internal/authzserver/store"
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/internal/authzserver/store"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 type datastore struct {

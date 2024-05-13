@@ -4,7 +4,7 @@
 
 package pumps
 
-import "github.com/marmotedu/iam/internal/pump/analytics"
+import "github.com/leimeng-go/iam/internal/pump/analytics"
 
 // CommonPumpConfig defines common options used by all persistent store, like elasticsearch, kafka, mongo and etc.
 type CommonPumpConfig struct {

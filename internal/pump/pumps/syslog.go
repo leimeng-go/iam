@@ -11,8 +11,8 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/marmotedu/iam/internal/pump/analytics"
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/internal/pump/analytics"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // SyslogPump defines a syslog pump with syslog specific options and common options.

@@ -4,7 +4,7 @@
 
 package store
 
-//go:generate mockgen -self_package=github.com/marmotedu/iam/internal/authzserver/store -destination mock_store.go -package store github.com/marmotedu/iam/internal/authzserver/store Factory,SecretStore,PolicyStore
+//go:generate mockgen -self_package=github.com/leimeng-go/iam/internal/authzserver/store -destination mock_store.go -package store github.com/leimeng-go/iam/internal/authzserver/store Factory,SecretStore,PolicyStore
 
 var client Factory
 

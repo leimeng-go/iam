@@ -15,7 +15,8 @@ tools.install: $(addprefix tools.install., $(TOOLS))
 tools.install.%:
 	@echo "===========> Installing $*"
 	@$(MAKE) install.$*
-
+# `which $*`:这个`which`命令用于查找环境变量PATH中的命令是否存在，并返回该命令的完整路径
+# `&/dev/null`: 这部分将`which`命令的所有输出(标准输出和标准错误)重定向到`/dev/null`，从而将`which`命令的输出信息屏蔽掉。
 .PHONY: tools.verify.%
 tools.verify.%:
 	@if ! which $* &>/dev/null; then $(MAKE) tools.install.$*; fi

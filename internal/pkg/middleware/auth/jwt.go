@@ -8,7 +8,7 @@ import (
 	ginjwt "github.com/appleboy/gin-jwt/v2"
 	"github.com/gin-gonic/gin"
 
-	"github.com/marmotedu/iam/internal/pkg/middleware"
+	"github.com/leimeng-go/iam/internal/pkg/middleware"
 )
 
 // AuthzAudience defines the value of jwt audience field.

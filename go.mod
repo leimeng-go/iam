@@ -1,4 +1,4 @@
-module github.com/marmotedu/iam
+module github.com/leimeng-go/iam
 
 go 1.21.4
 

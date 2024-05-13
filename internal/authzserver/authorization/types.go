@@ -4,7 +4,7 @@
 
 package authorization
 
-//go:generate mockgen -destination mock_authorization.go -package authorization github.com/marmotedu/iam/internal/authzserver/authorization AuthorizationInterface
+//go:generate mockgen -destination mock_authorization.go -package authorization github.com/leimeng-go/iam/internal/authzserver/authorization AuthorizationInterface
 
 import (
 	"github.com/ory/ladon"

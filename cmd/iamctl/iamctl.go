@@ -8,7 +8,7 @@ package main
 import (
 	"os"
 
-	"github.com/marmotedu/iam/internal/iamctl/cmd"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd"
 )
 
 func main() {

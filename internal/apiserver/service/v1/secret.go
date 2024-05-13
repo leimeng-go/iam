@@ -11,8 +11,8 @@ import (
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 	"github.com/marmotedu/errors"
 
-	"github.com/marmotedu/iam/internal/apiserver/store"
-	"github.com/marmotedu/iam/internal/pkg/code"
+	"github.com/leimeng-go/iam/internal/apiserver/store"
+	"github.com/leimeng-go/iam/internal/pkg/code"
 )
 
 // SecretSrv defines functions used to handle secret request.

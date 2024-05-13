@@ -7,7 +7,7 @@ package pumps
 import (
 	"context"
 
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // DummyPump  defines a dummy pump with dummy specific options and common options.

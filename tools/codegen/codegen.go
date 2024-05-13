@@ -18,7 +18,7 @@ import (
 	"html/template"
 	"io/ioutil"
 	"log"
-	"os"
+	"os"	
 	"path/filepath"
 	"regexp"
 	"strings"
@@ -61,7 +61,7 @@ var (
 
 // Usage is a replacement usage function for the flags package.
 func Usage() {
-	fmt.Fprintf(os.Stderr, "Usage of codegen:\n")
+	fmt.Fprintf(os.Stderr, "Usage of codegen: \n")
 	fmt.Fprintf(os.Stderr, "\tcodegen [flags] -type T [directory]\n")
 	fmt.Fprintf(os.Stderr, "\tcodegen [flags] -type T files... # Must be a single package\n")
 	fmt.Fprintf(os.Stderr, "Flags:\n")
@@ -89,7 +89,7 @@ func main() {
 		// Default: process whole package in current directory.
 		args = []string{"."}
 	}
-
+    fmt.Printf("args: %+v\n",args)
 	// Parse the package once.
 	var dir string
 	g := Generator{
@@ -205,6 +205,7 @@ func (g *Generator) parsePackage(patterns []string, tags []string) {
 		Tests:      false,
 		BuildFlags: []string{fmt.Sprintf("-tags=%s", strings.Join(tags, " "))},
 	}
+	fmt.Printf("cfg: %+v,patterns: %+v\n",*cfg,patterns)
 	pkgs, err := packages.Load(cfg, patterns...)
 	if err != nil {
 		log.Fatal(err)

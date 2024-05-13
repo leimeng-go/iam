@@ -14,7 +14,7 @@ import (
 	v1 "github.com/marmotedu/api/apiserver/v1"
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 
-	srvv1 "github.com/marmotedu/iam/internal/apiserver/service/v1"
+	srvv1 "github.com/leimeng-go/iam/internal/apiserver/service/v1"
 )
 
 func TestUserController_Get(t *testing.T) {

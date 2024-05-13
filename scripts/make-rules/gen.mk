@@ -16,6 +16,7 @@ gen.errcode: gen.errcode.code gen.errcode.doc
 .PHONY: gen.errcode.code
 gen.errcode.code: tools.verify.codegen
 	@echo "===========> Generating iam error code go source files"
+	@echo ${ROOT_DIR}
 	@codegen -type=int ${ROOT_DIR}/internal/pkg/code
 
 .PHONY: gen.errcode.doc

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/marmotedu/iam/pkg/log"
-	"github.com/marmotedu/iam/pkg/storage"
+	"github.com/leimeng-go/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/storage"
 )
 
 // Loader defines function to reload storage.

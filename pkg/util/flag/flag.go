@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // WordSepNormalizeFunc changes all flags that contain "_" separators.

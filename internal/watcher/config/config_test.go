@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/marmotedu/iam/internal/watcher/options"
+	"github.com/leimeng-go/iam/internal/watcher/options"
 )
 
 func TestCreateConfigFromOptions(t *testing.T) {

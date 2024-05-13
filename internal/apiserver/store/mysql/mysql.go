@@ -12,10 +12,10 @@ import (
 	"github.com/marmotedu/errors"
 	"gorm.io/gorm"
 
-	"github.com/marmotedu/iam/internal/apiserver/store"
-	"github.com/marmotedu/iam/internal/pkg/logger"
-	genericoptions "github.com/marmotedu/iam/internal/pkg/options"
-	"github.com/marmotedu/iam/pkg/db"
+	"github.com/leimeng-go/iam/internal/apiserver/store"
+	"github.com/leimeng-go/iam/internal/pkg/logger"
+	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
+	"github.com/leimeng-go/iam/pkg/db"
 )
 
 type datastore struct {

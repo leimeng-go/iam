@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package server defines the generic apiserver used by all iam platform.
-package server // import "github.com/marmotedu/iam/internal/pkg/server"
+package server // import "github.com/leimeng-go/iam/internal/pkg/server"

@@ -8,7 +8,7 @@ import (
 	authzv1 "github.com/marmotedu/api/authz/v1"
 	"github.com/ory/ladon"
 
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // Authorizer implement the authorize interface that use local repository to

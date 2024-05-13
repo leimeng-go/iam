@@ -12,7 +12,7 @@ import (
 	"github.com/marmotedu/errors"
 	"github.com/ory/ladon"
 
-	"github.com/marmotedu/iam/internal/authzserver/store"
+	"github.com/leimeng-go/iam/internal/authzserver/store"
 )
 
 // Cache is used to store secrets and policies.

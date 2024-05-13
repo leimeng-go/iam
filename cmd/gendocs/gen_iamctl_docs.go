@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/cobra/doc"
 
-	"github.com/marmotedu/iam/internal/iamctl/cmd"
-	"github.com/marmotedu/iam/pkg/util/genutil"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd"
+	"github.com/leimeng-go/iam/pkg/util/genutil"
 )
 
 func main() {

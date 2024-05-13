@@ -12,9 +12,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/marmotedu/component-base/pkg/json"
 
-	"github.com/marmotedu/iam/internal/authzserver/load"
-	"github.com/marmotedu/iam/pkg/log"
-	"github.com/marmotedu/iam/pkg/storage"
+	"github.com/leimeng-go/iam/internal/authzserver/load"
+	"github.com/leimeng-go/iam/pkg/log"
+	"github.com/leimeng-go/iam/pkg/storage"
 )
 
 // Publish publish a redis event to specified redis channel when some action occurred.

@@ -10,9 +10,9 @@ import (
 	"github.com/marmotedu/component-base/pkg/json"
 	"github.com/marmotedu/component-base/pkg/util/idutil"
 
-	genericoptions "github.com/marmotedu/iam/internal/pkg/options"
-	"github.com/marmotedu/iam/internal/pkg/server"
-	"github.com/marmotedu/iam/pkg/log"
+	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
+	"github.com/leimeng-go/iam/internal/pkg/server"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // Options runs an iam api server.

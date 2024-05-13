@@ -13,8 +13,8 @@ import (
 	"github.com/marmotedu/errors"
 	gorm "gorm.io/gorm"
 
-	"github.com/marmotedu/iam/internal/pkg/code"
-	"github.com/marmotedu/iam/internal/pkg/util/gormutil"
+	"github.com/leimeng-go/iam/internal/pkg/code"
+	"github.com/leimeng-go/iam/internal/pkg/util/gormutil"
 )
 
 type users struct {

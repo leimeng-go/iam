@@ -9,10 +9,10 @@ import (
 	cliflag "github.com/marmotedu/component-base/pkg/cli/flag"
 	"github.com/marmotedu/component-base/pkg/json"
 
-	"github.com/marmotedu/iam/internal/authzserver/analytics"
-	genericoptions "github.com/marmotedu/iam/internal/pkg/options"
-	"github.com/marmotedu/iam/internal/pkg/server"
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/internal/authzserver/analytics"
+	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
+	"github.com/leimeng-go/iam/internal/pkg/server"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // Options runs a authzserver.

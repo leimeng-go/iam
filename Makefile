@@ -3,6 +3,7 @@
 # license that can be found in the LICENSE file.
 
 # Build all by default, even if it's not first
+# 指定默认目标位‘all’,即使它不是第一个目标
 .DEFAULT_GOAL := all
 
 .PHONY: all

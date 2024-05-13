@@ -7,7 +7,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/marmotedu/iam/internal/pkg/server"
+	"github.com/leimeng-go/iam/internal/pkg/server"
 )
 
 // ServerRunOptions contains the options while running a generic api server.

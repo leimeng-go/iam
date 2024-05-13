@@ -7,9 +7,9 @@ package authzserver
 import (
 	"github.com/marmotedu/errors"
 
-	"github.com/marmotedu/iam/internal/authzserver/load/cache"
-	"github.com/marmotedu/iam/internal/pkg/middleware"
-	"github.com/marmotedu/iam/internal/pkg/middleware/auth"
+	"github.com/leimeng-go/iam/internal/authzserver/load/cache"
+	"github.com/leimeng-go/iam/internal/pkg/middleware"
+	"github.com/leimeng-go/iam/internal/pkg/middleware/auth"
 )
 
 func newCacheAuth() middleware.AuthStrategy {

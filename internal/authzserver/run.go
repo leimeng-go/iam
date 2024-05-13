@@ -5,7 +5,7 @@
 package authzserver
 
 import (
-	"github.com/marmotedu/iam/internal/authzserver/config"
+	"github.com/leimeng-go/iam/internal/authzserver/config"
 )
 
 // Run runs the specified AuthzServer. This should never exit.

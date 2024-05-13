@@ -15,8 +15,8 @@ import (
 	pb "github.com/marmotedu/api/proto/apiserver/v1"
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 
-	"github.com/marmotedu/iam/internal/apiserver/store"
-	"github.com/marmotedu/iam/internal/apiserver/store/fake"
+	"github.com/leimeng-go/iam/internal/apiserver/store"
+	"github.com/leimeng-go/iam/internal/apiserver/store/fake"
 )
 
 func TestGetCacheInsOr(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"github.com/marmotedu/component-base/pkg/core"
 	metav1 "github.com/marmotedu/component-base/pkg/meta/v1"
 
-	"github.com/marmotedu/iam/internal/pkg/middleware"
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/internal/pkg/middleware"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // Delete delete a secret by the secret identifier.

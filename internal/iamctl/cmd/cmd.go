@@ -14,22 +14,22 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/marmotedu/iam/internal/iamctl/cmd/color"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/completion"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/info"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/jwt"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/new"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/options"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/policy"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/secret"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/set"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/user"
-	cmdutil "github.com/marmotedu/iam/internal/iamctl/cmd/util"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/validate"
-	"github.com/marmotedu/iam/internal/iamctl/cmd/version"
-	"github.com/marmotedu/iam/internal/iamctl/util/templates"
-	genericapiserver "github.com/marmotedu/iam/internal/pkg/server"
-	"github.com/marmotedu/iam/pkg/cli/genericclioptions"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/color"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/completion"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/info"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/jwt"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/new"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/options"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/policy"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/secret"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/set"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/user"
+	cmdutil "github.com/leimeng-go/iam/internal/iamctl/cmd/util"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/validate"
+	"github.com/leimeng-go/iam/internal/iamctl/cmd/version"
+	"github.com/leimeng-go/iam/internal/iamctl/util/templates"
+	genericapiserver "github.com/leimeng-go/iam/internal/pkg/server"
+	"github.com/leimeng-go/iam/pkg/cli/genericclioptions"
 )
 
 // NewDefaultIAMCtlCommand creates the `iamctl` command with default arguments.
@@ -47,7 +47,7 @@ func NewIAMCtlCommand(in io.Reader, out, err io.Writer) *cobra.Command {
 		iamctl controls the iam platform, is the client side tool for iam platform.
 
 		Find more information at:
-			https://github.com/marmotedu/iam/blob/master/docs/guide/en-US/cmd/iamctl/iamctl.md`),
+			https://github.com/leimeng-go/iam/blob/master/docs/guide/en-US/cmd/iamctl/iamctl.md`),
 		Run: runHelp,
 		// Hook before and after Run initialize and write profiles to disk,
 		// respectively.

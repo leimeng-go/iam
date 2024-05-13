@@ -10,7 +10,7 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	"github.com/marmotedu/iam/internal/apiserver/store"
+	"github.com/leimeng-go/iam/internal/apiserver/store"
 )
 
 func TestNewService(t *testing.T) {

@@ -16,9 +16,9 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 
-	"github.com/marmotedu/iam/internal/apiserver/store"
-	genericoptions "github.com/marmotedu/iam/internal/pkg/options"
-	"github.com/marmotedu/iam/pkg/log"
+	"github.com/leimeng-go/iam/internal/apiserver/store"
+	genericoptions "github.com/leimeng-go/iam/internal/pkg/options"
+	"github.com/leimeng-go/iam/pkg/log"
 )
 
 // EtcdCreateEventFunc defines etcd create event function handler.

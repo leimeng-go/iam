@@ -2,4 +2,4 @@
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
-package validation // import "github.com/marmotedu/iam/internal/pkg/validation"
+package validation // import "github.com/leimeng-go/iam/internal/pkg/validation"
