@@ -89,7 +89,7 @@ func main() {
 		// Default: process whole package in current directory.
 		args = []string{"."}
 	}
-    fmt.Printf("args: %+v\n",args)
+    // fmt.Printf("args: %+v\n",args)
 	// Parse the package once.
 	var dir string
 	g := Generator{
@@ -199,16 +199,16 @@ type Package struct {
 func (g *Generator) parsePackage(patterns []string, tags []string) {
 	cfg := &packages.Config{
 		//nolint: staticcheck
-		Mode: packages.NeedName|packages.NeedTypesInfo|packages.NeedSyntax,
+		Mode: packages.NeedName|packages.NeedTypesInfo|packages.NeedSyntax|packages.NeedTypes|packages.NeedTypesSizes|packages.NeedDeps,
 		// TODO: Need to think about constants in test files. Maybe write type_string_test.go
 		// in a separate pass? For later.
 		Tests:      false,
 		BuildFlags: []string{fmt.Sprintf("-tags=%s", strings.Join(tags, " "))},
 	}
-	fmt.Printf("cfg: %+v,patterns: %+v\n",*cfg,patterns)
+	// fmt.Printf("cfg: %+v,patterns: %+v\n",*cfg,patterns)
 	pkgs, err := packages.Load(cfg, patterns...)
 	if err != nil {
-		fmt.Printf("解析包错误: %s\n",err.Error())
+		// fmt.Printf("解析包错误: %s\n",err.Error())
 		log.Fatal(err)
 	}
 	if len(pkgs) != 1 {
