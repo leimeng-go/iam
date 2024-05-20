@@ -1,13 +1,22 @@
 #!/usr/bin/env bash
+# 设置环境变量`LC_ALL` 为`C`,这通常用于确保脚本处理文本时使用标准的ASCII字符集，避免由于区域设置不同而引发的问题
 LC_ALL=C
 
+# 使用`git rev-parse --abbrev-ref HEAD` 获取当前HEAD指针所在的分支名称，并将其赋值给变量`local_branch`
 local_branch="$(git rev-parse --abbrev-ref HEAD)"
 
+# 这个正则表达式定义了有效的分支名称: 
+# `^(master|develop)$`:分支名称必须是master或develop
+# `|(feature|release|hotfix)\/[a-z0-9._-]+$`:或者分支名称以
+# `feature/`,`release/`,`hotfix/` 开头，后面跟随小写字母、数字、点、下划线或者短横线
+# `|^HEAD$`: 或者分支名称是`HEAD`(通常在某些操作中使用，如变基时)
 valid_branch_regex="^(master|develop)$|(feature|release|hotfix)\/[a-z0-9._-]+$|^HEAD$"
 
+# 这个变量`message`存储了一个错误信息，如果分支名称不符合规则，将会发生什么。
 message="There is something wrong with your branch name. Branch names in this project must adhere to this contract: $valid_branch_regex. 
 Your commit will be rejected. You should rename your branch to a valid name and try again."
 
+# 检查local_branch 的值是否符合`valid_branch_regex`定义的正则表达式
 if [[ ! $local_branch =~ $valid_branch_regex ]]
 then
     echo "$message"
