@@ -142,9 +142,9 @@ $ tee ca-csr.json << EOF
   "names": [
     {
       "C": "CN",
-      "ST": "BeiJing",
-      "L": "BeiJing",
-      "O": "marmotedu",
+      "ST": "HuBei",
+      "L": "WUHan",
+      "O": "Ramon",
       "OU": "iam"
     }
   ],
